@@ -1,0 +1,1396 @@
+diff --git a/blog/2023-ecosystem-eoy-recap.md b/blog/2023-ecosystem-eoy-recap.md
+index a83a83f..3554320 100644
+--- a/blog/2023-ecosystem-eoy-recap.md
++++ b/blog/2023-ecosystem-eoy-recap.md
+@@ -113,7 +113,8 @@ In the future, we plan on fully integrating this package into the Electron Forge
+ 
+ Please try it out and give us your feedback in the [repo’s issue tracker](https://github.com/electron/windows-sign/issues)!
+ 
+-## What's next?
++## What's next? {#ecosystem-2023-whats-next}
++
+ 
+ We'll be entering our annual December quiet period next month. While we do, we'll be thinking about how we can make the Electron development experience even better in 2024.
+ 
+diff --git a/blog/dec-quiet-month-21.md b/blog/dec-quiet-month-21.md
+index ace9e4d..73701fe 100644
+--- a/blog/dec-quiet-month-21.md
++++ b/blog/dec-quiet-month-21.md
+@@ -12,7 +12,7 @@ tags: [news]
+ The Electron project will pause for the month of December 2021, then return to full speed in January 2022.
+ 
+ <div style={{width:"100%",height:"0",paddingBottom:"42%",position:"relative"}}>
+-  <iframe src="https://giphy.com/embed/4QEGwDMDbOYC2G7m9p" width="100%" height="100%" style={{position:"absolute"}} frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
++  <iframe src="https://giphy.com/embed/4QEGwDMDbOYC2G7m9p" width="100%" height="100%" style={{position:"absolute"}} title="A Quiet Place Part I animation from GIPHY" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+ </div>
+ <p><a href="https://giphy.com/gifs/shh-john-krasinski-a-quiet-place-4QEGwDMDbOYC2G7m9p">via GIPHY</a></p>
+ 
+diff --git a/blog/dec-quiet-month-22.md b/blog/dec-quiet-month-22.md
+index 4063f53..62b4ff5 100644
+--- a/blog/dec-quiet-month-22.md
++++ b/blog/dec-quiet-month-22.md
+@@ -11,7 +11,7 @@ tags: [news]
+ 
+ The Electron project will pause for the month of December 2022, then return to full speed in January 2023.
+ 
+-<iframe src="https://giphy.com/embed/l4EpdWVFYX4qMpYLS" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/aquietplacemovie-quiet-shh-l4EpdWVFYX4qMpYLS">via GIPHY</a></p>
++<iframe src="https://giphy.com/embed/l4EpdWVFYX4qMpYLS" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen title="A Quiet Place quiet animation from GIPHY"></iframe><p><a href="https://giphy.com/gifs/aquietplacemovie-quiet-shh-l4EpdWVFYX4qMpYLS">via GIPHY</a></p>
+ 
+ ---
+ 
+diff --git a/blog/dec-quiet-period-23.md b/blog/dec-quiet-period-23.md
+index fad443b..b875e94 100644
+--- a/blog/dec-quiet-period-23.md
++++ b/blog/dec-quiet-period-23.md
+@@ -13,7 +13,7 @@ tags: [news]
+ The Electron project will pause for the month of December 2023, then return to full speed in
+ January 2024.
+ 
+-<iframe src="https://giphy.com/embed/7ShQBUr50tPfvgrwX9" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/disneyplus-7ShQBUr50tPfvgrwX9">via GIPHY</a></p>
++<iframe src="https://giphy.com/embed/7ShQBUr50tPfvgrwX9" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen title="Disney Plus animation from GIPHY"></iframe><p><a href="https://giphy.com/gifs/disneyplus-7ShQBUr50tPfvgrwX9">via GIPHY</a></p>
+ 
+ ---
+ 
+diff --git a/blog/dec-quiet-period-24.md b/blog/dec-quiet-period-24.md
+index d11b0a0..9ee31a6 100644
+--- a/blog/dec-quiet-period-24.md
++++ b/blog/dec-quiet-period-24.md
+@@ -12,7 +12,7 @@ tags: [news]
+ The Electron project will pause for the month of December 2024, then return to full speed in January 2025.
+ 
+ <div style={{ width: "100%", height: 0, paddingBottom: "54%", position: "relative" }}>
+-  <iframe src="https://giphy.com/embed/3otPoSDQczp1s9kVAQ" width="100%" height="100%" style={{ position: "absolute" }} frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
++  <iframe src="https://giphy.com/embed/3otPoSDQczp1s9kVAQ" width="100%" height="100%" style={{ position: "absolute" }} title="Confetti animation from GIPHY" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+ </div>
+ <p><a href="https://giphy.com/gifs/filmeditor-disney-pixar-3otPoSDQczp1s9kVAQ">via GIPHY</a></p>
+ 
+diff --git a/blog/electron-1-0.md b/blog/electron-1-0.md
+index a07799c..6b40fd8 100644
+--- a/blog/electron-1-0.md
++++ b/blog/electron-1-0.md
+@@ -11,7 +11,7 @@ desktop apps using HTML, CSS, and JavaScript. Now we're excited to share a major
+ milestone for our framework and for the community that created it. The release
+ of Electron 1.0 is now available from [electronjs.org][electronjs.org].
+ 
+----
++<!-- truncate -->
+ 
+ ![Electron 1.0](https://cloud.githubusercontent.com/assets/378023/15007352/315f5eea-1213-11e6-984e-21f5dab31267.png)
+ 
+diff --git a/blog/electron-10-0.md b/blog/electron-10-0.md
+index 0012a83..1b1cba6 100644
+--- a/blog/electron-10-0.md
++++ b/blog/electron-10-0.md
+@@ -10,7 +10,7 @@ tags: [release]
+ 
+ Electron 10.0.0 has been released! It includes upgrades to Chromium `85`, V8 `8.5`, and Node.js `12.16`. We've added several new API integrations and improvements. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 10.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://electronjs.org/releases/stable). The release is packed with upgrades, fixes, and new features.
+ 
+@@ -18,9 +18,9 @@ In the Electron 10 release, we also made a change to our release notes. To make
+ 
+ We can't wait to see what you build with them! Continue reading for details about this release, and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-10-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-10-0}
+ 
+ - Chromium `85.0.4183.84`
+   - [New in Chrome 84](https://developers.google.com/web/updates/2020/07/nic84)
+diff --git a/blog/electron-11-0.md b/blog/electron-11-0.md
+index 81d099c..7e13ae0 100644
+--- a/blog/electron-11-0.md
++++ b/blog/electron-11-0.md
+@@ -8,15 +8,15 @@ tags: [release]
+ 
+ Electron 11.0.0 has been released! It includes upgrades to Chromium `87`, V8 `8.7`, and Node.js `12.18.3`. We've added support for Apple silicon, and general improvements. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 11.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://electronjs.org/releases/stable). The release is packed with upgrades, fixes, and new support for Apple's M1 hardware.
+ 
+ We can't wait to see what you build with them! Continue reading for details about this release, and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-11-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-11-0}
+ 
+ - Chromium `87.0.4280.47`
+   - [New in Chrome 86](https://developers.google.com/web/updates/2020/10/nic86)
+diff --git a/blog/electron-12-0.md b/blog/electron-12-0.md
+index 0a03ada..3b7c215 100644
+--- a/blog/electron-12-0.md
++++ b/blog/electron-12-0.md
+@@ -11,13 +11,13 @@ tags: [release]
+ 
+ Electron 12.0.0 has been released! It includes upgrades to Chromium `89`, V8 `8.9` and Node.js `14.16`. We've added changes to the remote module, new defaults for contextIsolation, a new webFrameMain API, and general improvements. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 12.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://electronjs.org/releases/stable). Continue reading for details about this release, and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-12-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-12-0}
+ 
+ - Chromium `89`
+   - [New in Chrome 88](https://developer.chrome.com/blog/new-in-chrome-88/)
+diff --git a/blog/electron-13-0.md b/blog/electron-13-0.md
+index 861c553..e90de7b 100644
+--- a/blog/electron-13-0.md
++++ b/blog/electron-13-0.md
+@@ -11,13 +11,13 @@ tags: [release]
+ 
+ Electron 13.0.0 has been released! It includes upgrades to Chromium `91` and V8 `9.1`. We've added several API updates, bug fixes, and general improvements. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 13.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://electronjs.org/releases/stable). Continue reading for details about this release, and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-13-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-13-0}
+ 
+ - Chromium `91`
+   - [New in Chrome 91](https://developer.chrome.com/blog/new-in-chrome-91/)
+diff --git a/blog/electron-14-0.md b/blog/electron-14-0.md
+index aca836d..e05611a 100644
+--- a/blog/electron-14-0.md
++++ b/blog/electron-14-0.md
+@@ -11,14 +11,14 @@ tags: [release]
+ 
+ Electron 14.0.0 has been released! It includes upgrades to Chromium `93` and V8 `9.3`. We've added several API updates, bug fixes, and general improvements. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 14.0.0! You can
+ install it with npm via `npm install electron@latest` or download it from our
+ [releases website](https://electronjs.org/releases/stable). Continue reading for
+ details about this release and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-14-0}
+ 
+ ### Electron Release Cadence Change
+ 
+@@ -31,7 +31,7 @@ versions to latest four versions until May 2022. See
+ [see our versioning document](https://electronjs.org/docs/tutorial/electron-versioning)
+ for more detailed information about versioning in Electron.
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-14-0}
+ 
+ - Chromium `93`
+   - [New in Chrome 93](https://developer.chrome.com/blog/new-in-chrome-93/)
+diff --git a/blog/electron-15-0.md b/blog/electron-15-0.md
+index 571c7b0..aaba7ab 100644
+--- a/blog/electron-15-0.md
++++ b/blog/electron-15-0.md
+@@ -10,11 +10,11 @@ tags: [release]
+ 
+ Electron 15.0.0 has been released! It includes upgrades to Chromium `94`, V8 `9.4`, and Node.js `16.5.0`. We've added API updates to window.open, bug fixes, and general improvements. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 15.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://www.electronjs.org/releases/stable). Continue reading for details about this release and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-15-0}
+ 
+ ### Electron Release Cadence Change
+ 
+@@ -22,7 +22,7 @@ Starting with Electron 15, Electron will release a new major stable version ever
+ 
+ Additionally, Electron will be changing supported versions from latest three versions to latest four versions until May 2022. [See our versioning document](https://www.electronjs.org/docs/latest/tutorial/electron-versioning)for more detailed information about versioning in Electron.
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-15-0}
+ 
+ - Chromium `94`
+   - [New in Chrome 94](https://developer.chrome.com/blog/new-in-chrome-94/)
+diff --git a/blog/electron-16-0.md b/blog/electron-16-0.md
+index f890b7f..511d1e2 100644
+--- a/blog/electron-16-0.md
++++ b/blog/electron-16-0.md
+@@ -10,11 +10,11 @@ tags: [release]
+ 
+ Electron 16.0.0 has been released! It includes upgrades to Chromium `96`, V8 `9.6`, and Node.js `16.9.1`. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 16.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://www.electronjs.org/releases/stable). Continue reading for details about this release and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-16-0}
+ 
+ ### Electron Release Cadence Change
+ 
+@@ -22,7 +22,7 @@ As of Electron 15, Electron will release a new major stable version every 8 week
+ 
+ Additionally, Electron has changed supported versions from latest three versions to latest four versions until May 2022. [See our versioning document](https://www.electronjs.org/docs/latest/tutorial/electron-versioning) for more detailed information about versioning in Electron. After May 2022, we will return to supporting latest three versions.
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-16-0}
+ 
+ - Chromium `96`
+   - [New in Chrome 96](https://developer.chrome.com/blog/new-in-chrome-96/)
+diff --git a/blog/electron-17-0.md b/blog/electron-17-0.md
+index fd56c4e..3e74415 100644
+--- a/blog/electron-17-0.md
++++ b/blog/electron-17-0.md
+@@ -10,11 +10,11 @@ tags: [release]
+ 
+ Electron 17.0.0 has been released! It includes upgrades to Chromium `98`, V8 `9.8`, and Node.js `16.13.0`. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 17.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://www.electronjs.org/releases/stable). Continue reading for details about this release and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-17-0}
+ 
+ ### Electron Release Cadence Change
+ 
+@@ -22,7 +22,7 @@ As of Electron 15, Electron will release a new major stable version every 8 week
+ 
+ Additionally, Electron has changed supported versions from latest three versions to latest four versions until May 2022. [See our versioning document](https://www.electronjs.org/docs/latest/tutorial/electron-versioning) for more detailed information about versioning in Electron. After May 2022, we will return to supporting latest three versions.
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-17-0}
+ 
+ - Chromium `98`
+   - [New in Chrome 98](https://developer.chrome.com/blog/new-in-chrome-98/)
+diff --git a/blog/electron-18.md b/blog/electron-18.md
+index 7c58669..4b4cdb1 100644
+--- a/blog/electron-18.md
++++ b/blog/electron-18.md
+@@ -10,11 +10,11 @@ tags: [release]
+ 
+ Electron 18.0.0 has been released! It includes upgrades to Chromium `100`, V8 `10.0`, and Node.js `16.13.2`. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 18.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://www.electronjs.org/releases/stable). Continue reading for details about this release and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-18}
+ 
+ ### Electron Release Cadence Change
+ 
+@@ -22,7 +22,7 @@ As of Electron 15, Electron will release a new major stable version every 8 week
+ 
+ Additionally, Electron has changed supported versions from latest three versions to latest four versions until May 2022. [See our versioning document](https://www.electronjs.org/docs/latest/tutorial/electron-versioning) for more detailed information about versioning in Electron. After May 2022, we will return to supporting latest three versions.
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-18}
+ 
+ - Chromium `100`
+   - [New in Chrome 100](https://developer.chrome.com/blog/new-in-chrome-100/)
+diff --git a/blog/electron-19.md b/blog/electron-19.md
+index 0c24046..082cbd4 100644
+--- a/blog/electron-19.md
++++ b/blog/electron-19.md
+@@ -10,17 +10,17 @@ tags: [release]
+ 
+ Electron 19.0.0 has been released! It includes upgrades to Chromium `102`, V8 `10.2`, and Node.js `16.14.2`. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 19.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://www.electronjs.org/releases/stable). Continue reading for details about this release and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-19}
+ 
+ ### Electron Release Cadence Change
+ 
+ The project is returning to its earlier policy of supporting the latest three major versions. [See our versioning document](https://www.electronjs.org/docs/latest/tutorial/electron-versioning) for more detailed information about Electron versioning and support. This had temporarily been four major versions to help users adjust to the new release cadence that began in Electron 15. You can read the [full details here](https://www.electronjs.org/blog/8-week-cadence).
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-19}
+ 
+ - Chromium `102`
+   - [New in Chrome 102](https://developer.chrome.com/blog/new-in-chrome-102/)
+diff --git a/blog/electron-2-0.md b/blog/electron-2-0.md
+index b2ce246..059b8b4 100644
+--- a/blog/electron-2-0.md
++++ b/blog/electron-2-0.md
+@@ -10,7 +10,7 @@ After more than four months of development, eight beta releases, and worldwide
+ testing from many apps' staged rollouts, the release of Electron 2.0.0 is now
+ available from [electronjs.org](https://electronjs.org/).
+ 
+----
++<!-- truncate -->
+ 
+ ## Release Process
+ 
+diff --git a/blog/electron-2-semantic-boogaloo.md b/blog/electron-2-semantic-boogaloo.md
+index f5ac7f6..4f49ec2 100644
+--- a/blog/electron-2-semantic-boogaloo.md
++++ b/blog/electron-2-semantic-boogaloo.md
+@@ -11,7 +11,7 @@ tags: [release]
+ 
+ A new major version of Electron is in the works, and with it some changes to our versioning strategy. As of version 2.0.0, Electron will strictly adhere to Semantic Versioning.
+ 
+----
++<!-- truncate -->
+ 
+ This change means you'll see the major version bump more often, and it will usually be a major update to Chromium. Patch releases will also be more stable, as they will now only contain bug fixes with no new features.
+ 
+diff --git a/blog/electron-20-0.md b/blog/electron-20-0.md
+index f875559..5924584 100644
+--- a/blog/electron-20-0.md
++++ b/blog/electron-20-0.md
+@@ -8,11 +8,11 @@ tags: [release]
+ 
+ Electron 20.0.0 has been released! It includes upgrades to Chromium `104`, V8 `10.4`, and Node.js `16.15.0`. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 20.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://www.electronjs.org/releases/stable). Continue reading for details about this release and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-20-0}
+ 
+ ### New Features
+ 
+@@ -22,7 +22,7 @@ The Electron team is excited to announce the release of Electron 20.0.0! You can
+ - Renderers are now sandboxed by default unless `nodeIntegration: true` or `sandbox: false` is specified. [#35125](https://github.com/electron/electron/pull/35125)
+ - Added safeguards when building native modules with nan. [#35160](https://github.com/electron/electron/pull/35160)
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-20-0}
+ 
+ - Chromium `104`
+   - [New in Chrome 104](https://developer.chrome.com/blog/new-in-chrome-104/)
+diff --git a/blog/electron-21-0.md b/blog/electron-21-0.md
+index a1f3152..ef4081a 100644
+--- a/blog/electron-21-0.md
++++ b/blog/electron-21-0.md
+@@ -11,15 +11,15 @@ tags: [release]
+ 
+ Electron 21.0.0 has been released! It includes upgrades to Chromium `106`, V8 `10.6`, and Node.js `16.16.0`. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 21.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on Twitter, or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-21-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-21-0}
+ 
+ - Chromium `106`
+   - [New in Chrome 106](https://developer.chrome.com/blog/new-in-chrome-106/)
+diff --git a/blog/electron-22-0.md b/blog/electron-22-0.md
+index a3864bd..12475c5 100644
+--- a/blog/electron-22-0.md
++++ b/blog/electron-22-0.md
+@@ -10,15 +10,15 @@ tags: [release]
+ 
+ Electron 22.0.0 has been released! It includes a new utility process API, updates for Windows 7/8/8.1 support, and upgrades to Chromium `108`, V8 `10.8`, and Node.js `16.17.1`. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 22.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on Twitter, or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-22-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-22-0}
+ 
+ - Chromium `108`
+   - [New in Chrome 108](https://developer.chrome.com/blog/new-in-chrome-108/)
+diff --git a/blog/electron-23-0.md b/blog/electron-23-0.md
+index 9023ab4..72e2259 100644
+--- a/blog/electron-23-0.md
++++ b/blog/electron-23-0.md
+@@ -11,15 +11,15 @@ tags: [release]
+ 
+ Electron 23.0.0 has been released! It includes upgrades to Chromium `110`, V8 `11.0`, and Node.js `18.12.1`. Additionally, support for Windows 7/8/8.1 has been dropped. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 23.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on Twitter, or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-23-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-23-0}
+ 
+ - Chromium `110`
+   - [New in Chrome 110](https://developer.chrome.com/blog/new-in-chrome-110/)
+diff --git a/blog/electron-24-0.md b/blog/electron-24-0.md
+index fb138f0..9612e91 100644
+--- a/blog/electron-24-0.md
++++ b/blog/electron-24-0.md
+@@ -8,15 +8,15 @@ tags: [release]
+ 
+ Electron 24.0.0 has been released! It includes upgrades to Chromium `112.0.5615.49`, V8 `11.2`, and Node.js `18.14.0`. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 24.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on Twitter, or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-24-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-24-0}
+ 
+ - Chromium `112.0.5615.49`
+   - [New in Chrome 112](https://developer.chrome.com/blog/new-in-chrome-112/)
+@@ -27,7 +27,7 @@ If you have any feedback, please share it with us on Twitter, or join our commun
+   - [Node 18.14.0 blog post](https://nodejs.org/en/blog/release/v18.14.0/)
+ - V8 `11.2`
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-24-0}
+ 
+ #### API Changed: `nativeImage.createThumbnailFromPath(path, size)`
+ 
+diff --git a/blog/electron-25-0.md b/blog/electron-25-0.md
+index 64c2507..2c31527 100644
+--- a/blog/electron-25-0.md
++++ b/blog/electron-25-0.md
+@@ -10,13 +10,13 @@ tags: [release]
+ 
+ Electron 25.0.0 has been released! It includes upgrades to Chromium `114`, V8 `11.4`, and Node.js `18.15.0`. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 25.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on Twitter, or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-25-0}
+ 
+ ### Highlights
+ 
+@@ -24,7 +24,7 @@ If you have any feedback, please share it with us on Twitter, or join our commun
+ - Added `protocol.handle`, which replaces and deprecates `protocol.{register,intercept}{String,Buffer,Stream,Http,File}Protocol`. [#36674](https://github.com/electron/electron/pull/36674)
+ - Extended support for Electron 22, in order to match Chromium and Microsoft's Windows 7/8/8.1 deprecation plan. See additional details at the end of this blog post.
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-25-0}
+ 
+ - Chromium `114`
+   - [New in Chrome 114](https://developer.chrome.com/blog/new-in-chrome-114/)
+@@ -35,7 +35,7 @@ If you have any feedback, please share it with us on Twitter, or join our commun
+   - [Node 18.15.0 blog post](https://nodejs.org/en/blog/release/v18.15.0/)
+ - V8 `11.4`
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-25-0}
+ 
+ #### Deprecated: `protocol.{register,intercept}{Buffer,String,Stream,File,Http}Protocol`
+ 
+diff --git a/blog/electron-26-0.md b/blog/electron-26-0.md
+index b6812b6..e755702 100644
+--- a/blog/electron-26-0.md
++++ b/blog/electron-26-0.md
+@@ -8,15 +8,15 @@ tags: [release]
+ 
+ Electron 26.0.0 has been released! It includes upgrades to Chromium `116.0.5845.62`, V8 `11.2`, and Node.js `18.16.1`. Read below for more details!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 26.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on Twitter, or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-26-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-26-0}
+ 
+ - Chromium `116.0.5845.62`
+   - [New in Chrome 116](https://developer.chrome.com/blog/new-in-chrome-116/)
+@@ -25,7 +25,7 @@ If you have any feedback, please share it with us on Twitter, or join our commun
+   - [Node 18.16.1 blog post](https://nodejs.org/en/blog/release/v18.16.1/)
+ - V8 `11.2`
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-26-0}
+ 
+ ### Deprecated: `webContents.getPrinters`
+ 
+diff --git a/blog/electron-27-0.md b/blog/electron-27-0.md
+index 070020b..7ce4a2b 100644
+--- a/blog/electron-27-0.md
++++ b/blog/electron-27-0.md
+@@ -8,15 +8,15 @@ tags: [release]
+ 
+ Electron 27.0.0 has been released! It includes upgrades to Chromium `118.0.5993.32`, V8 `11.8`, and Node.js `18.17.1`.
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 27.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on [Twitter](https://twitter.com/electronjs) or [Mastodon](https://social.lfx.dev/@electronjs), or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-27-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-27-0}
+ 
+ - Chromium `118.0.5993.32`
+   - [New in Chrome 118](https://developer.chrome.com/blog/new-in-chrome-118/)
+@@ -26,7 +26,7 @@ If you have any feedback, please share it with us on [Twitter](https://twitter.c
+   - [Node 18.17.0 blog post](https://nodejs.org/en/blog/release/v18.17.0/)
+ - V8 `11.8`
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-27-0}
+ 
+ ### Removed: macOS 10.13 / 10.14 support
+ 
+diff --git a/blog/electron-28-0.md b/blog/electron-28-0.md
+index 7b81e31..a4a2317 100644
+--- a/blog/electron-28-0.md
++++ b/blog/electron-28-0.md
+@@ -8,20 +8,20 @@ tags: [release]
+ 
+ Electron 28.0.0 has been released! It includes upgrades to Chromium `120.0.6099.56`, V8 `12.0`, and Node.js `18.18.2`.
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 28.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on [Twitter](https://twitter.com/electronjs) or [Mastodon](https://social.lfx.dev/@electronjs), or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-28-0}
+ 
+ ## Highlights
+ 
+ - Implemented support for ECMAScript modules or ESM (What are ECMAScript modules? [learn more here](https://nodejs.org/api/esm.html#modules-ecmascript-modules). This includes support for ESM in Electron proper, as well as areas such as the `UtilityProcess` API entrypoints. [See our ESM documentation](https://www.electronjs.org/docs/latest/tutorial/esm) for more details.
+ - In addition to enabling ESM support in Electron itself, Electron Forge also supports using ESM to package, build and develop Electron applications. You can find this support in [Forge v7.0.0](https://github.com/electron/forge/releases/tag/v7.0.0) or higher.
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-28-0}
+ 
+ - Chromium `120.0.6099.56`
+   - New in [Chrome 119](https://developer.chrome.com/blog/new-in-chrome-119/) and in [DevTools 119](https://developer.chrome.com/blog/new-in-devtools-119/)
+@@ -40,7 +40,7 @@ If you have any feedback, please share it with us on [Twitter](https://twitter.c
+ - Added several properties to the `display` object including `detected`, `maximumCursorSize`, and `nativeOrigin`. [#40554](https://github.com/electron/electron/pull/40554)
+ - Added support for `ELECTRON_OZONE_PLATFORM_HINT` environment variable on Linux. [#39792](https://github.com/electron/electron/pull/39792)
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-28-0}
+ 
+ #### Behavior Changed: `WebContents.backgroundThrottling` set to false affects all `WebContents` in the host `BrowserWindow`
+ 
+diff --git a/blog/electron-29-0.md b/blog/electron-29-0.md
+index 288acb2..3723565 100644
+--- a/blog/electron-29-0.md
++++ b/blog/electron-29-0.md
+@@ -8,19 +8,19 @@ tags: [release]
+ 
+ Electron 29.0.0 has been released! It includes upgrades to Chromium `122.0.6261.39`, V8 `12.2`, and Node.js `20.9.0`.
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 29.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on [Twitter](https://twitter.com/electronjs) or [Mastodon](https://social.lfx.dev/@electronjs), or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-29-0}
+ 
+ ### Highlights
+ 
+ - Added a new top-level `webUtils` module, a renderer process module that provides a utility layer to interact with Web API objects. The first available API in the module is `webUtils.getPathForFile`. Electron's previous `File.path` augmentation was a deviation from web standards; this new API is more in line with current web standards behavior.
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-29-0}
+ 
+ - Chromium `122.0.6261.39`
+   - New in [Chrome 122](https://developer.chrome.com/blog/new-in-chrome-122/) and in [DevTools 122](https://developer.chrome.com/blog/new-in-devtools-122/)
+@@ -40,7 +40,7 @@ Electron 29 upgrades Chromium from `120.0.6099.56` to `122.0.6261.39`, Node from
+ - Added an option in `protocol.registerSchemesAsPrivileged` to allow V8 code cache in custom schemes. [#40544](https://github.com/electron/electron/pull/40544)
+ - Migrated `app.{set|get}LoginItemSettings(settings)` to use Apple's new recommended underlying framework on macOS 13.0+. [#37244](https://github.com/electron/electron/pull/37244)
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-29-0}
+ 
+ #### Behavior Changed: `ipcRenderer` can no longer be sent over the `contextBridge`
+ 
+diff --git a/blog/electron-3-0.md b/blog/electron-3-0.md
+index 98e5ae1..90b47fd 100644
+--- a/blog/electron-3-0.md
++++ b/blog/electron-3-0.md
+@@ -9,7 +9,7 @@ tags: [release]
+ The Electron team is excited to announce that the first stable release of Electron 3 is now
+ available from [electronjs.org](https://electronjs.org/) and via `npm install electron@latest`! It's jam-packed with upgrades, fixes, and new features, and we can't wait to see what you build with them. Below are details about this release, and we welcome your feedback as you explore.
+ 
+----
++<!-- truncate -->
+ 
+ ## Release Process
+ 
+diff --git a/blog/electron-30-0.md b/blog/electron-30-0.md
+index 3b515fc..42cdc98 100644
+--- a/blog/electron-30-0.md
++++ b/blog/electron-30-0.md
+@@ -10,13 +10,13 @@ tags: [release]
+ 
+ Electron 30.0.0 has been released! It includes upgrades to Chromium `124.0.6367.49`, V8 `12.4`, and Node.js `20.11.1`.
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 30.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on [Twitter](https://twitter.com/electronjs) or [Mastodon](https://social.lfx.dev/@electronjs), or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-30-0}
+ 
+ ### Highlights
+ 
+@@ -28,7 +28,7 @@ If you have any feedback, please share it with us on [Twitter](https://twitter.c
+   - See [our Web Embeds documentation](https://www.electronjs.org/docs/latest/tutorial/web-embeds) for a comparison of the new `WebContentsView` API to other similar APIs.
+ - Implemented support for the [File System API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API) ([#41827](https://github.com/electron/electron/commit/cf1087badd437906f280373decb923733a8523e6))
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-30-0}
+ 
+ - Chromium `124.0.6367.49`
+   - New in [Chrome 124](https://developer.chrome.com/blog/new-in-chrome-124/) and in [DevTools 124](https://developer.chrome.com/blog/new-in-devtools-124/)
+@@ -48,7 +48,7 @@ Electron 30 upgrades Chromium from `122.0.6261.39` to `124.0.6367.49`, Node from
+ - Added support for Bluetooth ports being requested by service class ID in `navigator.serial`. ([#41734](https://github.com/electron/electron/pull/41734))
+ - Added support for the Node.js [`NODE_EXTRA_CA_CERTS`](https://nodejs.org/api/cli.html#node_extra_ca_certsfile) CLI flag. ([#41822](https://github.com/electron/electron/pull/41822))
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-30-0}
+ 
+ #### Behavior Changed: cross-origin iframes now use Permission Policy to access features
+ 
+diff --git a/blog/electron-31-0.md b/blog/electron-31-0.md
+index b4b5eec..19caa47 100644
+--- a/blog/electron-31-0.md
++++ b/blog/electron-31-0.md
+@@ -8,13 +8,13 @@ tags: [release]
+ 
+ Electron 31.0.0 has been released! It includes upgrades to Chromium `126.0.6478.36`, V8 `12.6`, and Node `20.14.0`.
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 31.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on [Twitter](https://twitter.com/electronjs) or [Mastodon](https://social.lfx.dev/@electronjs), or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-31-0}
+ 
+ ### Highlights
+ 
+@@ -25,7 +25,7 @@ If you have any feedback, please share it with us on [Twitter](https://twitter.c
+ - `nativeImage.toDataURL` will preserve PNG colorspace [#41610](https://github.com/electron/electron/pull/41610)
+ - Extended `webContents.setWindowOpenHandler` to support manual creation of BrowserWindow. [#41432](https://github.com/electron/electron/pull/41432)
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-31-0}
+ 
+ - Chromium`126.0.6478.36`
+   - [New in 126](https://developer.chrome.com/blog/new-in-chrome-126/)
+@@ -47,7 +47,7 @@ Electron 31 upgrades Chromium from `124.0.6367.49` to `126.0.6478.36`, Node from
+ - Extended `WebContentsView` to accept pre-existing `WebContents` instances. [#42319](https://github.com/electron/electron/pull/42319)
+ - Added a new instance property `navigationHistory` on webContents API with `navigationHistory.getEntryAtIndex` method, enabling applications to retrieve the URL and title of any navigation entry within the browsing history. [#41577](https://github.com/electron/electron/pull/41577) <sup>(Also in [29](https://github.com/electron/electron/pull/41661), [30](https://github.com/electron/electron/pull/41662))</sup>
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-31-0}
+ 
+ #### Removed: `WebSQL` support
+ 
+diff --git a/blog/electron-32-0.md b/blog/electron-32-0.md
+index 7feb7a5..b0506e7 100644
+--- a/blog/electron-32-0.md
++++ b/blog/electron-32-0.md
+@@ -8,13 +8,13 @@ tags: [release]
+ 
+ Electron 32.0.0 has been released! It includes upgrades to Chromium `128.0.6613.36`, V8 `12.8`, and Node `20.16.0`.
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 32.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on [Twitter](https://twitter.com/electronjs) or [Mastodon](https://social.lfx.dev/@electronjs), or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-32-0}
+ 
+ ### Highlights
+ 
+@@ -23,7 +23,7 @@ If you have any feedback, please share it with us on [Twitter](https://twitter.c
+ - Aligned failure pathway in Web [File System API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API) with upstream when attempting to open a file or directory in a blocked path. [#42993](https://github.com/electron/electron/pull/42993)
+ - Added the following existing navigation-related APIs to `webcontents.navigationHistory`: `canGoBack`, `goBack`, `canGoForward`, `goForward`, `canGoToOffset`, `goToOffset`, `clear`. The previous navigation APIs are now deprecated. [#41752](https://github.com/electron/electron/pull/41752)
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-32-0}
+ 
+ - Chromium`128.0.6613.36`
+   - [New in 128](https://developer.chrome.com/blog/new-in-chrome-128/)
+@@ -45,7 +45,7 @@ Electron 32 upgrades Chromium from `126.0.6478.36` to `128.0.6613.36`, Node from
+ - Enabled the Windows Control Overlay API on Linux. [#42681](https://github.com/electron/electron/pull/42681)
+ - Enabled `zstd` compression in network requests. [#43300](https://github.com/electron/electron/pull/43300)
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-32-0}
+ 
+ #### Removed: `File.path`
+ 
+diff --git a/blog/electron-33-0.md b/blog/electron-33-0.md
+index 1163825..b53b1bf 100644
+--- a/blog/electron-33-0.md
++++ b/blog/electron-33-0.md
+@@ -8,13 +8,13 @@ tags: [release]
+ 
+ Electron 33.0.0 has been released! It includes upgrades to Chromium 130.0.6723.44, V8 13.0, and Node 20.18.0.
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 33.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on [Twitter](https://twitter.com/electronjs) or [Mastodon](https://social.lfx.dev/@electronjs), or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-33-0}
+ 
+ ### Highlights
+ 
+@@ -22,7 +22,7 @@ If you have any feedback, please share it with us on [Twitter](https://twitter.c
+ - Extended `navigationHistory` API with 2 new functions for better history management. [#42014](https://github.com/electron/electron/pull/42014)
+ - Improved native theme transparency checking. [#42862](https://github.com/electron/electron/pull/42862)
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-33-0}
+ 
+ - Chromium `130.0.6723.44`
+   - [New in 130](https://developer.chrome.com/blog/new-in-chrome-130/)
+@@ -41,7 +41,7 @@ Electron 33 upgrades Chromium from `128.0.6613.36` to `130.0.6723.44`, Node from
+ - Added `View.setBorderRadius(radius)` for customizing the border radius of views—with compatibility for `WebContentsView`. [#42320](https://github.com/electron/electron/pull/42320)
+ - Extended `navigationHistory` API with 2 new functions for better history management. [#42014](https://github.com/electron/electron/pull/42014)
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-33-0}
+ 
+ #### Removed: macOS 10.15 support
+ 
+diff --git a/blog/electron-34-0.md b/blog/electron-34-0.md
+index ef618dc..c0a1ac0 100644
+--- a/blog/electron-34-0.md
++++ b/blog/electron-34-0.md
+@@ -8,13 +8,13 @@ tags: [release]
+ 
+ Electron 34.0.0 has been released! It includes upgrades to Chromium 132.0.6834.83, V8 13.2, and Node 20.18.1.
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 34.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on [Bluesky](https://bsky.app/profile/electronjs.org) or [Mastodon](https://social.lfx.dev/@electronjs), or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-34-0}
+ 
+ ### HTTP Compression Shared Dictionary Management APIs
+ 
+@@ -55,7 +55,7 @@ app.on('web-contents-created', (_, webContents) => {
+ > [!WARNING]
+ > This API requires the `'Document-Policy': 'include-js-call-stacks-in-crash-reports'` header to be enabled. See [#45356](https://github.com/electron/electron/issues/45356) for more details.
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-34-0}
+ 
+ - Chromium `132.0.6834.83`
+   - [New in 131](https://developer.chrome.com/blog/new-in-chrome-131/)
+@@ -76,7 +76,7 @@ Electron 34 upgrades Chromium from `130.0.6723.44` to `132.0.6834.83`, Node from
+ - Added error event in utility process to support diagnostic reports on V8 fatal errors. [#43774](https://github.com/electron/electron/pull/43774)
+ - Feat: GPU accelerated shared texture offscreen rendering. [#42953](https://github.com/electron/electron/pull/42953)
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-34-0}
+ 
+ ### Behavior Changed: menu bar will be hidden during fullscreen on Windows
+ 
+diff --git a/blog/electron-35-0.md b/blog/electron-35-0.md
+index a4787d3..4837c4c 100644
+--- a/blog/electron-35-0.md
++++ b/blog/electron-35-0.md
+@@ -10,13 +10,13 @@ tags: [release]
+ 
+ Electron 35.0.0 has been released! It includes upgrades to Chromium 134.0.6998.44, V8 13.5, and Node 22.14.0.
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 35.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/releases/stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on [Bluesky](https://bsky.app/profile/electronjs.org) or [Mastodon](https://social.lfx.dev/@electronjs), or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-35-0}
+ 
+ ### Service Worker Preload Scripts for Improved Extensions Support
+ 
+@@ -42,7 +42,7 @@ This feature was preceded by many other changes that laid the groundwork for it:
+ - [#45229](https://github.com/electron/electron/pull/45330) added the experimental `contextBridge.executeInMainWorld(executionScript)` script to evaluate JavaScript in the main world over the context bridge.
+ - [#45341](https://github.com/electron/electron/pull/45341) added the `ServiceWorkerMain` class to interact with Service Workers in the main process.
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-35-0}
+ 
+ - Chromium `134.0.6998.44`
+   - [New in 134](https://developer.chrome.com/blog/new-in-chrome-134/)
+diff --git a/blog/electron-36-0.md b/blog/electron-36-0.md
+index 379ebce..3e7c572 100644
+--- a/blog/electron-36-0.md
++++ b/blog/electron-36-0.md
+@@ -9,13 +9,13 @@ tags: [release]
+ 
+ Electron 36.0.0 has been released! It includes upgrades to Chromium 136, V8 13.6, and Node 22.14.0.
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 36.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/release?channel=stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on [Bluesky](https://bsky.app/profile/electronjs.org) or [Mastodon](https://social.lfx.dev/@electronjs), or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-36-0}
+ 
+ ### Writing Tools Support
+ 
+@@ -34,7 +34,7 @@ menu.popup({
+ });
+ ```
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-36-0}
+ 
+ - Chromium `136.0.7103.48`
+   - [New in 136](https://developer.chrome.com/blog/new-in-chrome-136/)
+@@ -45,7 +45,7 @@ menu.popup({
+ 
+ Electron 36 upgrades Chromium from `134.0.6998.23` to `136.0.7103.48`, and V8 from `13.5` to `13.6`.
+ 
+-### New Features and Improvements
++### New Features and Improvements {#new-features-and-improvements-v36}
+ 
+ - Added `BrowserWindow.isSnapped()` to indicate whether a given window has been arranged via Snap on Windows. [#46226](https://github.com/electron/electron/pull/46226)
+ - Added `WebContents.focusedFrame` to get the focused frame.
+@@ -59,7 +59,7 @@ Electron 36 upgrades Chromium from `134.0.6998.23` to `136.0.7103.48`, and V8 fr
+ - Improved performance of `desktopCapturer.getSources` when not requesting thumbnails on macOS. [#46251](https://github.com/electron/electron/pull/46251) (Also in [34](https://github.com/electron/electron/pull/46250), [35](https://github.com/electron/electron/pull/46249))
+ - Removed 240 FPS limit when using shared texture OSR. [#45669](https://github.com/electron/electron/pull/45669) (Also in [35](https://github.com/electron/electron/pull/45781))
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-36-0}
+ 
+ ### Deprecated: `NativeImage.getBitmap()`
+ 
+diff --git a/blog/electron-37-0.md b/blog/electron-37-0.md
+index ca40087..884761c 100644
+--- a/blog/electron-37-0.md
++++ b/blog/electron-37-0.md
+@@ -10,13 +10,13 @@ tags: [release]
+ 
+ Electron 37.0.0 has been released! It includes upgrades to Chromium 138, V8 13.8, and Node 22.16.0.
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 37.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://releases.electronjs.org/release?channel=stable). Continue reading for details about this release.
+ 
+ If you have any feedback, please share it with us on [Bluesky](https://bsky.app/profile/electronjs.org) or [Mastodon](https://social.lfx.dev/@electronjs), or join our community [Discord](https://discord.com/invite/electronjs)! Bugs and feature requests can be reported in Electron's [issue tracker](https://github.com/electron/electron/issues).
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-37-0}
+ 
+ ### Smooth Corners: Native CSS Squircles
+ 
+@@ -68,7 +68,7 @@ This design enhancement can be applied on borders, outlines, and shadows, giving
+ > The initial design drew inspiration from Figma's corner smoothing implementation. Read more about their own quest for smooth corners in
+ > ["Desperately seeking squircles"](https://www.figma.com/blog/desperately-seeking-squircles/).
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-37-0}
+ 
+ - Chromium `138.0.7204.35`
+   - [New in 138](https://developer.chrome.com/blog/new-in-chrome-138/)
+@@ -91,7 +91,7 @@ program's coding period!
+ 
+ It has been an exciting couple of weeks for our GSOC participants, so stay tuned for more updates!
+ 
+-### New Features and Improvements
++
+ 
+ - Added `innerWidth` and `innerHeight` options for `window.open`. [#47039](https://github.com/electron/electron/pull/47039) (Also in [35](https://github.com/electron/electron/pull/47045), [36](https://github.com/electron/electron/pull/47038))
+ - Added `before-mouse-event` to allow intercepting and preventing mouse events in `webContents`. [#47364](https://github.com/electron/electron/pull/47364) (Also in [36](https://github.com/electron/electron/pull/47365))
+@@ -104,7 +104,7 @@ It has been an exciting couple of weeks for our GSOC participants, so stay tuned
+ - Added support for node option `--experimental-network-inspection`. [#47031](https://github.com/electron/electron/pull/47031) (Also in [35](https://github.com/electron/electron/pull/47029), [36](https://github.com/electron/electron/pull/47030))
+ - Exposed `win.isContentProtected()` to allow developers to check window protection status. [#47310](https://github.com/electron/electron/pull/47310) (Also in [36](https://github.com/electron/electron/pull/47311))
+ 
+-### Breaking Changes
++### Breaking Changes {#breaking-changes-electron-37-0}
+ 
+ ### Utility Process unhandled rejection behavior change
+ 
+diff --git a/blog/electron-37.md b/blog/electron-37.md
+index 514e05f..e9c39fa 100644
+--- a/blog/electron-37.md
++++ b/blog/electron-37.md
+@@ -8,7 +8,7 @@ tags: [release]
+ 
+ Electron `0.37` was recently [released](https://github.com/electron/electron/releases) and included a major upgrade from Chrome 47 to Chrome 49 and also several new core APIs. This latest release brings in all the new features shipped in [Chrome 48](http://blog.chromium.org/2015/12/chrome-48-beta-present-to-cast-devices_91.html) and [Chrome 49](http://blog.chromium.org/2016/02/chrome-49-beta-css-custom-properties.html). This includes CSS custom properties, increased [ES6](http://www.ecma-international.org/ecma-262/6.0/) support, `KeyboardEvent` improvements, `Promise` improvements, and many other new features now available in your Electron app.
+ 
+----
++<!-- truncate -->
+ 
+ ## What's New
+ 
+diff --git a/blog/electron-4-0.md b/blog/electron-4-0.md
+index 72905ac..6e3c59e 100644
+--- a/blog/electron-4-0.md
++++ b/blog/electron-4-0.md
+@@ -11,7 +11,7 @@ tags: [release]
+ 
+ The Electron team is excited to announce that the stable release of Electron 4 is now available! You can install it from [electronjs.org](https://electronjs.org/) or from npm via `npm install electron@latest`. The release is packed with upgrades, fixes, and new features, and we can't wait to see what you build with them. Read more for details about this release, and please share any feedback you have as you explore!
+ 
+----
++<!-- truncate -->
+ 
+ ## What's New?
+ 
+diff --git a/blog/electron-5-0-timeline.md b/blog/electron-5-0-timeline.md
+index fa64c17..ecc19ef 100644
+--- a/blog/electron-5-0-timeline.md
++++ b/blog/electron-5-0-timeline.md
+@@ -8,7 +8,7 @@ tags: [release]
+ 
+ For the first time ever, Electron is excited to publicize our release schedule starting with v5.0.0. This is our first step in having a public, long-term timeline.
+ 
+----
++<!-- truncate -->
+ 
+ As mentioned in our v4.0.0 stable release [blog post](https://electronjs.org/blog/electron-4-0#whats-next), we are planning to release approximately quarterly to maintain closer cadence with Chromium releases. Chromium releases a new version very quickly -- every 6 weeks.
+ 
+diff --git a/blog/electron-5-0.md b/blog/electron-5-0.md
+index 970d010..6443ef3 100644
+--- a/blog/electron-5-0.md
++++ b/blog/electron-5-0.md
+@@ -13,7 +13,7 @@ tags: [release]
+ 
+ The Electron team is excited to announce the release of Electron 5.0.0! You can install it with npm via `npm install electron@latest` or download the tarballs from [our releases page](https://github.com/electron/electron/releases/tag/v5.0.0). The release is packed with upgrades, fixes, and new features. We can't wait to see what you build with them! Continue reading for details about this release, and please share any feedback you have!
+ 
+----
++<!-- truncate -->
+ 
+ ## What's New?
+ 
+diff --git a/blog/electron-6-0.md b/blog/electron-6-0.md
+index 367b591..0c66502 100644
+--- a/blog/electron-6-0.md
++++ b/blog/electron-6-0.md
+@@ -11,7 +11,7 @@ tags: [release]
+ 
+ The Electron team is excited to announce the release of Electron 6.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://electronjs.org/releases/stable). The release is packed with upgrades, fixes, and new features. We can't wait to see what you build with them! Continue reading for details about this release, and please share any feedback you have!
+ 
+----
++<!-- truncate -->
+ 
+ ## What's New
+ 
+diff --git a/blog/electron-7-0.md b/blog/electron-7-0.md
+index a348a10..51d4c5e 100644
+--- a/blog/electron-7-0.md
++++ b/blog/electron-7-0.md
+@@ -10,11 +10,11 @@ tags: [release]
+ 
+ Electron 7.0.0 has been released! It includes upgrades to Chromium 78, V8 7.8, and Node.js 12.8.1. We've added a Window on Arm 64 release, faster IPC methods, a new `nativeTheme` API, and much more!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 7.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://electronjs.org/releases/stable). The release is packed with upgrades, fixes, and new features. We can't wait to see what you build with them! Continue reading for details about this release, and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-7-0}
+ 
+ - Stack Upgrades:
+ 
+diff --git a/blog/electron-8-0.md b/blog/electron-8-0.md
+index f879123..ac0e65a 100644
+--- a/blog/electron-8-0.md
++++ b/blog/electron-8-0.md
+@@ -10,13 +10,13 @@ tags: [release]
+ 
+ Electron 8.0.0 has been released! It includes upgrades to Chromium `80`, V8 `8.0`, and Node.js `12.13.0`. We've added Chrome's built-in spellchecker, and much more!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 8.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://electronjs.org/releases/stable). The release is packed with upgrades, fixes, and new features. We can't wait to see what you build with them! Continue reading for details about this release, and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-8-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-8-0}
+ 
+ - Chromium `80.0.3987.86`
+   - [New in Chrome 79](https://developers.google.com/web/updates/2019/12/nic79)
+diff --git a/blog/electron-9-0.md b/blog/electron-9-0.md
+index a67ffe1..9d281df 100644
+--- a/blog/electron-9-0.md
++++ b/blog/electron-9-0.md
+@@ -10,13 +10,13 @@ tags: [release]
+ 
+ Electron 9.0.0 has been released! It includes upgrades to Chromium `83`, V8 `8.3`, and Node.js `12.14`. We've added several new API integrations for our spellchecker feature, enabled PDF viewer, and much more!
+ 
+----
++<!-- truncate -->
+ 
+ The Electron team is excited to announce the release of Electron 9.0.0! You can install it with npm via `npm install electron@latest` or download it from our [releases website](https://electronjs.org/releases/stable). The release is packed with upgrades, fixes, and new features. We can't wait to see what you build with them! Continue reading for details about this release, and please share any feedback you have!
+ 
+-## Notable Changes
++## Notable Changes {#notable-changes-electron-9-0}
+ 
+-### Stack Changes
++### Stack Changes {#stack-changes-electron-9-0}
+ 
+ - Chromium `83.0.4103.64`
+   - [New in Chrome 81](https://developers.google.com/web/updates/2020/04/nic81)
+diff --git a/blog/electron-api-changes.md b/blog/electron-api-changes.md
+index 25c6192..518fdb4 100644
+--- a/blog/electron-api-changes.md
++++ b/blog/electron-api-changes.md
+@@ -8,7 +8,7 @@ tags: [release]
+ 
+ Since the beginning of Electron, starting way back when it used to be called Atom-Shell, we have been experimenting with providing a nice cross-platform JavaScript API for Chromium's content module and native GUI components. The APIs started very organically, and over time we have made several changes to improve the initial designs.
+ 
+----
++<!-- truncate -->
+ 
+ Now with Electron gearing up for a 1.0 release, we'd like to take the opportunity for change by addressing the last niggling API details. The changes described below are included in **0.35.x**, with the old APIs reporting deprecation warnings so you can get up to date for the future 1.0 release. An Electron 1.0 won't be out for a few months so you have some time before these changes become breaking.
+ 
+diff --git a/blog/electron-doumentation.md b/blog/electron-doumentation.md
+index 89130d3..6f4d548 100644
+--- a/blog/electron-doumentation.md
++++ b/blog/electron-doumentation.md
+@@ -8,7 +8,7 @@ tags: [website]
+ 
+ This week we've given Electron's documentation a home on [electronjs.org](https://electronjs.org). You can visit [/docs/latest](https://electronjs.org/docs/latest) for the latest set of docs. We'll keep versions of older docs, too, so you're able to visit [/docs/vX.XX.X](https://electronjs.org/docs/v0.26.0) for the docs that correlate to the version you're using.
+ 
+----
++<!-- truncate -->
+ 
+ You can visit [/docs](https://electronjs.org/docs) to see what versions are available or [/docs/all](https://electronjs.org/docs/all) to see the latest version of docs all on one page (nice for `cmd` + `f` searches).
+ 
+diff --git a/blog/electron-internals-building-chromium-as-a-library.md b/blog/electron-internals-building-chromium-as-a-library.md
+index fe3be8b..1a56ef4 100644
+--- a/blog/electron-internals-building-chromium-as-a-library.md
++++ b/blog/electron-internals-building-chromium-as-a-library.md
+@@ -11,7 +11,7 @@ necessarily designed to be used by other projects. This post introduces
+ how Chromium is built as a library for Electron's use, and how the build
+ system has evolved over the years.
+ 
+----
++<!-- truncate -->
+ 
+ ## Using CEF
+ 
+diff --git a/blog/electron-internals-node-integration.md b/blog/electron-internals-node-integration.md
+index 7743117..d485a84 100644
+--- a/blog/electron-internals-node-integration.md
++++ b/blog/electron-internals-node-integration.md
+@@ -9,7 +9,7 @@ tags: [internals]
+ This is the first post of a series that explains the internals of Electron. This
+ post introduces how Node's event loop is integrated with Chromium in Electron.
+ 
+----
++<!-- truncate -->
+ 
+ There had been many attempts to use Node for GUI programming, like
+ [node-gui][node-gui] for GTK+ bindings, and [node-qt][node-qt] for QT bindings.
+diff --git a/blog/electron-internals-using-node-as-a-library.md b/blog/electron-internals-using-node-as-a-library.md
+index 7413016..7f307f5 100644
+--- a/blog/electron-internals-using-node-as-a-library.md
++++ b/blog/electron-internals-using-node-as-a-library.md
+@@ -14,7 +14,7 @@ Most people use [Node](https://nodejs.org) for server-side applications, but bec
+ API set and thriving community, it is also a great fit for an embedded library.
+ This post explains how Node is used as a library in Electron.
+ 
+----
++<!-- truncate -->
+ 
+ ## Build system
+ 
+diff --git a/blog/electron-internals-weak-references.md b/blog/electron-internals-weak-references.md
+index cfad5a8..def9e7f 100644
+--- a/blog/electron-internals-weak-references.md
++++ b/blog/electron-internals-weak-references.md
+@@ -13,7 +13,7 @@ very careful avoiding both memory and resources leaks.
+ This post introduces the concept of weak references and how they are used to
+ manage resources in Electron.
+ 
+----
++<!-- truncate -->
+ 
+ ## Weak references
+ 
+diff --git a/blog/electron-joins-openjsf.md b/blog/electron-joins-openjsf.md
+index b8848b7..9f05c4a 100644
+--- a/blog/electron-joins-openjsf.md
++++ b/blog/electron-joins-openjsf.md
+@@ -12,7 +12,7 @@ The OpenJS Foundation is host to a number of open source JavaScript projects inc
+ 
+ This is an exciting move for Electron, and we see it as a next step in our evolution as an open-source project.
+ 
+----
++<!-- truncate -->
+ 
+ ## What this means for developers
+ 
+diff --git a/blog/electron-meetup.md b/blog/electron-meetup.md
+index 3143b7a..e2f0be3 100644
+--- a/blog/electron-meetup.md
++++ b/blog/electron-meetup.md
+@@ -8,7 +8,7 @@ tags: [community]
+ 
+ Join us September 29th at GitHub's HQ for an Electron meetup hosted by Atom team members [@jlord](https://github.com/jlord) and [@kevinsawicki](https://github.com/kevinsawicki). There will be talks, food to snack on, and time to hangout and meet others doing cool things with Electron. We'll also have a bit of time to do lightning talks for those interested. Hope to see you there!
+ 
+----
++<!-- truncate -->
+ 
+ **Talks**
+ 
+diff --git a/blog/electron-openjs-impact-project.md b/blog/electron-openjs-impact-project.md
+index fc1ca70..e3eaf1b 100644
+--- a/blog/electron-openjs-impact-project.md
++++ b/blog/electron-openjs-impact-project.md
+@@ -10,7 +10,7 @@ At [OpenJS World](https://events.linuxfoundation.org/openjs-world/) this morning
+ 
+ Electron [entered incubation in December of 2019](https://openjsf.org/blog/2019/12/11/electron-joins-the-openjs-foundation/), at the last OpenJS Foundation global conference in Montreal. We're excited to take a larger role in the JavaScript community as an Impact Project, and continue our partnership with the OpenJS Foundation.
+ 
+----
++<!-- truncate -->
+ 
+ ## Learning more
+ 
+diff --git a/blog/electron-podcasts.md b/blog/electron-podcasts.md
+index 714ca28..5450828 100644
+--- a/blog/electron-podcasts.md
++++ b/blog/electron-podcasts.md
+@@ -8,7 +8,7 @@ tags: [community]
+ 
+ Looking for an introduction to Electron? Two new podcasts have just been released that give a great overview of what it is, why it was built, and how it is being used.
+ 
+----
++<!-- truncate -->
+ 
+ **Out now:**
+ 
+diff --git a/blog/electron-updates-mac-app-store-and-windows-auto-updater.md b/blog/electron-updates-mac-app-store-and-windows-auto-updater.md
+index 91b9076..59ea977 100644
+--- a/blog/electron-updates-mac-app-store-and-windows-auto-updater.md
++++ b/blog/electron-updates-mac-app-store-and-windows-auto-updater.md
+@@ -8,7 +8,7 @@ tags: [ecosystem]
+ 
+ Recently Electron added two exciting features: a Mac App Store compatible build and a built-in Windows auto updater.
+ 
+----
++<!-- truncate -->
+ 
+ ## Mac App Store Support
+ 
+diff --git a/blog/node-22-ecosystem-update.md b/blog/node-22-ecosystem-update.md
+index a756011..758c79a 100644
+--- a/blog/node-22-ecosystem-update.md
++++ b/blog/node-22-ecosystem-update.md
+@@ -33,6 +33,6 @@ We’ll strive to maintain compatibility as much as possible. However, to ensure
+ 
+ Note that the Node version running in your project is unrelated to the Node version embedded into your current version of Electron.
+ 
+-### What's next
++### What's next {#node-22-whats-next}
+ 
+ Please feel free to write to us at [info@electronjs.org](mailto:info@electronjs.org) if you have any questions or concerns. You can also find community support in our official [Electron Discord](https://discord.gg/electronjs).
+diff --git a/blog/windows-7-deprecation.md b/blog/windows-7-deprecation.md
+index 2cc8b88..6e184e2 100644
+--- a/blog/windows-7-deprecation.md
++++ b/blog/windows-7-deprecation.md
+@@ -53,6 +53,7 @@ previously announced.
+ 
+ :::
+ 
+-## What's next
+ 
++
++## What's next for Windows 7/8/8.1 {#win7-whats-next}
+ Please feel free to write to us at info@electronjs.org if you have any questions or concerns. You can also find community support in our official [Electron Discord](https://discord.gg/electronjs).
+diff --git a/docs/latest/development/api-history-migration-guide.md b/docs/latest/development/api-history-migration-guide.md
+index a388621..fe48260 100644
+--- a/docs/latest/development/api-history-migration-guide.md
++++ b/docs/latest/development/api-history-migration-guide.md
+@@ -13,7 +13,8 @@ This document demonstrates how to add API History blocks to existing APIs.
+ 
+ Here are some resources you can use to find information on the history of an API:
+ 
+-### Breaking Changes
++### Breaking Changes {#api-history-migration-guide-breaking-changes}
++
+ 
+ * [`breaking-changes.md`](../breaking-changes.md)
+ 
+diff --git a/docs/latest/development/pull-requests.md b/docs/latest/development/pull-requests.md
+index 0b5c948..aa3a55c 100644
+--- a/docs/latest/development/pull-requests.md
++++ b/docs/latest/development/pull-requests.md
+@@ -124,7 +124,7 @@ Other things to keep in mind when writing a commit message:
+ 2. Keep the second line blank.
+ 3. Wrap all other lines at 72 columns.
+ 
+-#### Breaking Changes
++#### Breaking Changes {#pull-requests-breaking-changes}
+ 
+ A commit that has the text `BREAKING CHANGE:` at the beginning of its optional
+ body or footer section introduces a breaking API change (correlating with Major
+diff --git a/docusaurus.config.ts b/docusaurus.config.ts
+index e2d6325..d8a6c6f 100644
+--- a/docusaurus.config.ts
++++ b/docusaurus.config.ts
+@@ -235,6 +235,12 @@ const config: Config = {
+       apiKey: 'fdc2cf6080e499639d7e6b0278851ed4',
+       indexName: 'electronjs',
+       contextualSearch: true,
++      translations: {
++        button: {
++          buttonText: 'Search',
++          buttonAriaLabel: 'Search',
++        },
++      },
+     },
+   } satisfies Preset.ThemeConfig,
+   plugins: [
+diff --git a/src/pages/fiddle/index.tsx b/src/pages/fiddle/index.tsx
+index ce39067..4a08629 100644
+--- a/src/pages/fiddle/index.tsx
++++ b/src/pages/fiddle/index.tsx
+@@ -114,7 +114,7 @@ export default function FiddlePage() {
+ 
+   return (
+     <Layout title="Electron Fiddle">
+-      <header className={styles.header}>
++      <header className={styles.header} aria-label="Electron Fiddle banner">
+         <FiddleLogo width={48} height={48} />
+         <h1 className={styles.tagline}>
+           The <em className={styles.heroEmphasis}>easiest</em> way to get
+@@ -154,6 +154,7 @@ export default function FiddlePage() {
+               <img
+                 className={featureStyles.featureImage}
+                 src="/assets/fiddle/explore.png"
++alt="Explore Electron feature"
+               />
+             </div>
+           </div>
+@@ -172,7 +173,7 @@ export default function FiddlePage() {
+             <div className={featureStyles.featureImageContainer}>
+               <img
+                 className={featureStyles.featureImage}
+-                src="/assets/fiddle/npm.png"
++                src="/assets/fiddle/npm.png" alt="Screenshot of npm package search in Electron Fiddle"
+               />
+             </div>
+           </div>
+@@ -196,6 +197,7 @@ export default function FiddlePage() {
+               <img
+                 className={featureStyles.featureImage}
+                 src="/assets/fiddle/types.png"
++                alt="TypeScript definitions screenshot"
+               />
+             </div>
+           </div>
+@@ -217,6 +219,7 @@ export default function FiddlePage() {
+               <img
+                 className={featureStyles.featureImage}
+                 src="/assets/fiddle/package.png"
++                alt="Fiddle packaging UI screenshot"
+               />
+             </div>
+           </div>
+diff --git a/src/pages/home/_index.tsx b/src/pages/home/_index.tsx
+index 933ba46..45b5164 100644
+--- a/src/pages/home/_index.tsx
++++ b/src/pages/home/_index.tsx
+@@ -28,7 +28,7 @@ export default function Home() {
+   const { siteConfig } = useDocusaurusContext();
+   return (
+     <Layout title={siteConfig.tagline} description={siteConfig.tagline}>
+-      <header className={clsx('hero', 'hero--primary', styles.heroElectron)}>
++      <header aria-label="Homepage banner" className={clsx('hero', 'hero--primary', styles.heroElectron)}>
+         <div className="container">
+           <div className="row">
+             <div className="col col--12">
+diff --git a/src/plugins/governance/components/index.tsx b/src/plugins/governance/components/index.tsx
+index 4af6ccb..e4d7303 100644
+--- a/src/plugins/governance/components/index.tsx
++++ b/src/plugins/governance/components/index.tsx
+@@ -140,7 +140,7 @@ const Member = ({ user, isChair }: MemberProps) => {
+       <img
+         className="avatar__photo avatar__photo--sm"
+         src={`https://github.com/${user}.png`}
+-        alt=""
++        alt={`Profile picture of ${user}`}
+       />
+       <div
+         className="avatar__intro"
